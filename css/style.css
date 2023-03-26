@@ -9,11 +9,9 @@
   --color-grey-light: #757575;
 }
 
-a:link {
-  text-decoration: none;
+.link:hover {
   cursor: pointer;
 }
-
 button:hover {
   cursor: pointer;
 }
@@ -32,6 +30,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .menu-link-logo-type {
@@ -39,6 +38,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .navigation-pick > li > a {
@@ -49,6 +49,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .navigation-pick > li > .link:hover {
@@ -64,6 +65,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-grey-light);
+  text-decoration: none;
 }
 
 /* MAIN-INDEX */
@@ -220,6 +222,9 @@ body {
 }
 .contact-main > .menu-link-logo-type {
   color: var(--color-full-white);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .contact-list > li > a[href="https://goo.gl/maps/yP13i9epQqiqHnS6A"]
 {
