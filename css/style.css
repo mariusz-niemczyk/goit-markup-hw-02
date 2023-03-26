@@ -8,14 +8,15 @@
   --color-buttom-nav-blue: #2196f3;
   --color-grey-light: #757575;
 }
-
 .link:hover {
   cursor: pointer;
 }
 button:hover {
   cursor: pointer;
 }
-
+ul {
+  list-style-type: none;
+}
 /* BODY-STYLE */
 
 body {
